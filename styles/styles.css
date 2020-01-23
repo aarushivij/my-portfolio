@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+.home-page {
+  height: 100vh;
+  background-image: url("../images/side-bulb.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-heading {
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 7vh;
+}
+
+.link-style {
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 2vh;
+  margin: 10px;
+}
+
+.home-nav a.link-style:hover {
+  font-size: 2.5vh;
+  text-decoration: none;
+}
+
+.about-page {
+  height: 100vh;
+  background-image: url("../images/off-white.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-about {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.my-image {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+}
+
+#hey {
+  font-size: 5vh;
+  font-family: "Merriweather", serif;
+}
+
+.about-paragraph {
+  font-size: 2vh;
+  font-family: "Merriweather", serif;
+}
+
+#my-pic {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact{
+  height: 25vh;
+  background-color: black;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
